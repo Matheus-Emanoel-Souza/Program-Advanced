@@ -1,0 +1,10 @@
+./nome_do_arquivo_executavel
+gcc --version
+gcc -o (nomedoarquivonovo) (nomedoarquivojáfeito)
+dir -> mostra o conteudo da pasta.
+cd.. volta 1 pasta
+cd (TAB) ->aVANÇA 1 PASTA.
+
+salvar o arquivo em C nomedoarquivo.c
+salvar o arquivo em c++ nomedoarquivo.cc ou .cpp
+
