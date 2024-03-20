@@ -32,9 +32,19 @@ void imprimirProduto(produto prod)
     }
 };
 
+void addProduto(produto prod, precos preco)
+{
+    static int idx = 0; //variavel statica que vai declarar idx como 0 apenas na primeira vez que rodar o programa.
+
+    lista_de_produtos[idx] = prod;
+    idx++;
+}
 int main()
 {
-    produto escolha_feita = CELULAR;
+    addProduto(TV,999.99);
+    addProduto(SOM,299.99);
+    addProduto(CELULAR,899.99);
+    //produto escolha_feita = CELULAR;
     //printf("o prod escolhido foi:%i",escolha_feita);
-    imprimirProduto(escolha_feita);
+    //imprimirProduto(escolha_feita);
 }
