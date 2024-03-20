@@ -37,6 +37,7 @@ void addProduto(produto prod, precos preco)
     static int idx = 0; //variavel statica que vai declarar idx como 0 apenas na primeira vez que rodar o programa.
 
     lista_de_produtos[idx] = prod;
+    lista_de_precos[idx] = preco;
     idx++;
 }
 int main()
