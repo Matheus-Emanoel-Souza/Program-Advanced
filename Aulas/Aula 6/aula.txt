@@ -1,0 +1,8 @@
+PARTE 1 ______________________
+Aula prof passou trabalho no tinkercad
+projetar arduino com 2 botoes.
+escrever mensagem com A,E,I,O,u.
+2 botões apenas
+Display + 2 botões.
+_________________________________
+
