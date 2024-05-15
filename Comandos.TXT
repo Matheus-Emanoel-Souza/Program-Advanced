@@ -8,3 +8,13 @@ cd (TAB) ->aVANÇA 1 PASTA.
 salvar o arquivo em C nomedoarquivo.c
 salvar o arquivo em c++ nomedoarquivo.cc ou .cpp
 
+gcc biblioteca.c main.c -g
+
+./a.exe
+
+gcc biblioteca.c main.c -o main.exe
+gcc -> compilar 
+essa biblioteca com esse arquivo em um arquivo com nome.
+
+-o -> linkar
+

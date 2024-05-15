@@ -1,4 +1,3 @@
-#include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
 #include"biblioteca.h"
@@ -8,6 +7,6 @@
 int main()
 {
     
-    MeuPrint("Funciona mesmo mesmo!!");
+    MeuPrint("Funciona");
     return 0;
 }
