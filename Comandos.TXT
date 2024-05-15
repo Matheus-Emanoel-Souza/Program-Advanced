@@ -1,20 +1,21 @@
 ./nome_do_arquivo_executavel
-gcc --version
+gcc -> compilar
 gcc -o (nomedoarquivonovo) (nomedoarquivojáfeito)
 dir -> mostra o conteudo da pasta.
 cd.. volta 1 pasta
 cd (TAB) ->aVANÇA 1 PASTA.
 
-salvar o arquivo em C nomedoarquivo.c
-salvar o arquivo em c++ nomedoarquivo.cc ou .cpp
 
 gcc biblioteca.c main.c -g
-
 ./a.exe
-
-gcc biblioteca.c main.c -o main.exe
-gcc -> compilar 
+gcc biblioteca.c main.c -o main.exe 
 essa biblioteca com esse arquivo em um arquivo com nome.
 
+-g -> serve para parar o código
 -o -> linkar
+
+main.c --> biblioteca.h --> biblioteca.c
+
+A biblioteca.h está declarado o que está na biblioteca.c que quero usar. 
+1 - para cada biblioteca.c precisa de uma biblioteca.h
 
