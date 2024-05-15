@@ -1,11 +1,13 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
-#include<string.h>
+#include"biblioteca.h"
+//<> -> pesquisa na pasta do compilador.
+//"" -> pesquisa na própria pasta do projeto.
 
 int main()
 {
     
-    printf("Funciona!!");
+    MeuPrint("Funciona mesmo mesmo!!");
     return 0;
 }
