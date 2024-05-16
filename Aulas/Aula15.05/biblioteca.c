@@ -13,11 +13,11 @@ void PreparaPrint(char *msg)
 
 void MeuPrint(Cveic veic)
 {
-    printf("*****************************");
-    printf("%s",veic.experimento);
-    printf("Distância:%2f",veic.experimento);
-    printf("vel media:%2f",veic.velocidade);
-    printf("Tempo:%2f",veic.tempo);
+    printf("*****************************\n");
+    printf("%s\n",veic.experimento);
+    printf("Distancia:%.2f\n",veic.experimento);
+    printf("vel media:%.2f\n",veic.velocidade);
+    printf("Tempo:%.2f\n",veic.tempo);
     printf("******************************");
 }
 
