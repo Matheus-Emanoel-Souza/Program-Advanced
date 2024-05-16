@@ -1,9 +1,0 @@
-{
-    "C_Cpp.default.compilerPath": "C:\\MinGW\\bin\\gcc.exe",
-    "files.associations": {
-        "AULA6.C": "cpp",
-        "math.h": "c",
-        "biblioteca.h": "c"
-    },
-    "C_Cpp.errorSquiggles": "disabled"
-}
