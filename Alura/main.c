@@ -18,6 +18,7 @@ int main()
 
     char Letra;
     scanf("%s",&Letra);
-
+ 
+ //Usar biblioteca do 
     return 0;
 }
