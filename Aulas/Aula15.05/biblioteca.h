@@ -10,7 +10,7 @@ typedef struct
     float distancia;
     float tempo;
 }Cveic;
+void MeuPrint(Cveic veic);
+void initCinematica(char *n, float d, float t, Cveic *v);
+void calvelocidade(Cveic *veiculo);
 
-Cveic initCinmatica(char *n, float d, float t,Cveic*v);
-void calvelocidade(Cveic*veiculo);
-void MeuPrint(char *msg);

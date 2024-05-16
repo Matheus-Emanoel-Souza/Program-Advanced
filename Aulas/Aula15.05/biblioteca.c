@@ -11,13 +11,17 @@ void PreparaPrint(char *msg)
     printf("%s",msg_resultado);
 }
 
-void MeuPrint(char *msg)
+void MeuPrint(Cveic veic)
 {
-    PreparaPrint(msg);
-    printf("%s",msg);
+    printf("*****************************");
+    printf("%s",veic.experimento);
+    printf("Distância:%2f",veic.experimento);
+    printf("vel media:%2f",veic.velocidade);
+    printf("Tempo:%2f",veic.tempo);
+    printf("******************************");
 }
 
-void initCinmatica(char *n, float d, float t,Cveic*v)
+void initCinematica(char *n, float d, float t,Cveic *v)
 {
     v->distancia=d;
     v->tempo=t;

@@ -5,9 +5,9 @@
 
 int main()
 {
-    Cveic_exp_1;
-    initCinmatica("Teste1",1000,10,&exp_1);
-    calcvelocidade(&exp_1);
-    MeuPrint("Funciona");
+    Cveic exp_1;
+    initCinematica("Teste1",1000,10,&exp_1);
+    calvelocidade(&exp_1);
+    MeuPrint(exp_1);
     return 0;
 }
