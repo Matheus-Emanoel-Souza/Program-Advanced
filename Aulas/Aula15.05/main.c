@@ -5,8 +5,8 @@
 
 int main()
 {
-    Cveic exp_1;
-    initCinematica("Teste1",1000,10,&exp_1);
+    Cveic exp_1; //Criou um objeto do protótipo cveic
+    initCinematica("Teste1",1000,10,&exp_1);//Chamou a função de cinemática.
     calvelocidade(&exp_1);
     MeuPrint(exp_1);
     return 0;
