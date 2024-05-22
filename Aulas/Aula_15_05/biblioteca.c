@@ -31,3 +31,4 @@ void calvelocidade(Cveic*veiculo)
 {
     veiculo->velocidade=veiculo->distancia/veiculo->tempo;
 }
+
