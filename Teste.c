@@ -6,10 +6,24 @@ int main()
 {
     char fraseoriginar[200];
     char palavra[50];
+    char *ponteiro;
 
     strcpy(fraseoriginar,"A PIPA DO VOVO NAO SOBE MAIS");
     fgets(palavra,sizeof(palavra),stdin);
+    ponteiro = strstr(fraseoriginar,palavra);
 
+    if (ponteiro != NULL)
+    {
+        printf("%c",*ponteiro);
+    }
+    else{
+        printf("ponteiro nulo.");
+    }
+    
+
+    // strstr(1a,2a);
+    //1a - aonde eu desejo realizar a busca
+    //2a - Qual tring eu quero buscar.
 
     //fgets(1a,2a,3a);
     //1a - aonde desejo salvar. Qual variável.
