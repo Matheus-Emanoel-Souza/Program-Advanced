@@ -47,17 +47,29 @@ if (lista->contador == 0)
 {
     lista->marcador->proximo = no;
 }
-
-
 lista->contador ++;
 }
 
 
-void imprimirLivro(Livro book)
+void imprimirLista(lista lista)
 {
-    printf("Autor: %s\n",book.autor);
-    printf("Titulo: %s\n",book.titulo);
-    printf("Ano: %i\n",book.ano);
+    lista.marcador = lista.primeiro;
+
+    while (lista.marcador !=NULL)
+    {
+        imprimirLivro(lista.marcador->info);
+        lista.marcador = lista.marcador->proximo;
+    }
+    
+}
+
+void printLivro(Livro livro)
+{
+ printf("---------------------------\n");
+ printf("LIVRO: %s\n",livro.titulo);
+ printf("AUTOR: %s\n",livro.autor);
+ printf("ANO: %s\n",livro.ano);
+
 }
 
 int main()
