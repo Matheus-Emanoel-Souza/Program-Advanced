@@ -19,3 +19,4 @@ main.c --> biblioteca.h --> biblioteca.c
 A biblioteca.h está declarado o que está na biblioteca.c que quero usar. 
 1 - para cada biblioteca.c precisa de uma biblioteca.h
 
+ALT + 92 = \.

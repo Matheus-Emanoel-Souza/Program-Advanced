@@ -1,5 +1,10 @@
 {
     "files.associations": {
+<<<<<<< HEAD
         "DELETA_ITEM.C": "cpp"
+=======
+        "string.h": "c",
+        "stdio.h": "c"
+>>>>>>> origin/Estudos
     }
 }

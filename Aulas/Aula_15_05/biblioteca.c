@@ -15,7 +15,7 @@ void MeuPrint(Cveic veic)
 {
     printf("*****************************\n");
     printf("%s\n",veic.experimento);
-    printf("Distancia:%.2f\n",veic.experimento);
+    printf("Distancia:%.2f\n",veic.distancia);
     printf("vel media:%.2f\n",veic.velocidade);
     printf("Tempo:%.2f\n",veic.tempo);
     printf("******************************");
@@ -31,3 +31,4 @@ void calvelocidade(Cveic*veiculo)
 {
     veiculo->velocidade=veiculo->distancia/veiculo->tempo;
 }
+
