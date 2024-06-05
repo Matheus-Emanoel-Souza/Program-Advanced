@@ -1,0 +1,35 @@
+int num = 10;
+printf("%d", num);  // Saída: 10
+
+unsigned int num = 10;
+printf("%u", num);  // Saída: 10
+
+float num = 3.14;
+printf("%f", num);  // Saída: 3.140000
+
+double num = 3.14;
+printf("%lf", num);  // Saída: 3.140000
+
+char ch = 'A';
+printf("%c", ch);  // Saída: A
+
+char str[] = "Hello";
+printf("%s", str);  // Saída: Hello
+
+int num = 10;
+int *ptr = &num;
+printf("%p", (void*)ptr);  // Saída: endereço de memória de num
+
+unsigned int num = 255;
+printf("%x", num);  // Saída: ff
+printf("%X", num);  // Saída: FF
+
+unsigned int num = 255;
+printf("%o", num);  // Saída: 377
+
+double num = 123.456;
+printf("%e", num);  // Saída: 1.234560e+02
+printf("%E", num);  // Saída: 1.234560E+02
+
+unsigned long num = 123456789UL;
+printf("%lu", num);  // Saída: 123456789
