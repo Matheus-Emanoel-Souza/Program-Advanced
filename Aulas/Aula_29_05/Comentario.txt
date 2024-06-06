@@ -1,1 +1,18 @@
 O primeiro ponteiro aponta pro nulo.
+
+Nó terá 4 informações:
+Conteudo
+Marcador
+Proximo
+ultimo
+
+apaga o novo no renovado e usa o novo_no
+No + lista.
+lista-> Adiciona no na lista
+No-> aloca ponteiro + Conteudo
+ 
+ seta = ponteiro
+
+ preciso de um nó auxiliar para sempre apontar para o proximo caso eu remova algum item.
+
+
