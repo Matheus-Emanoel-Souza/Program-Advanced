@@ -1,4 +1,5 @@
 //Lista encadeada.
+//aula 29/05/2024.
 #include<stdio.h>
 #include<stdlib.h>
 
