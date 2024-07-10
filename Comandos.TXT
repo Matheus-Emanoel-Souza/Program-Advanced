@@ -1,9 +1,9 @@
 ./nome_do_arquivo_executavel
 gcc -> compilar
-gcc -o (nomedoarquivonovo) (nomedoarquivojáfeito)
-dir -> mostra o conteudo da pasta.
-cd.. volta 1 pasta
-cd (TAB) ->aVANÇA 1 PASTA.
+gcc -o (nomedoarquivonovo) (nomedoarquivojáfeito) = COMPILA ARQUIVO.
+dir = mostra o conteudo da pasta.
+cd.. = volta 1 pasta
+cd + (TAB) = AVANÇA 1 PASTA.
 
 
 gcc biblioteca.c main.c -g
